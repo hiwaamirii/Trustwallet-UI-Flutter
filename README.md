@@ -5,10 +5,10 @@ A simple and practical trustwallet ui with a beautiful design,
 Please give this project a star, I appreciate it. The project will evolve over time.
 
 # Screenshot
-<p align="left"> <a href="https://github.com/hiwaamirii/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> </p>
+<p align="left"> <a href="" target="_blank" rel="noreferrer"> <img src="https://trustwallet.com/_next/image?url=https%3A%2F%2Fstrapi-cdn.trustwallet.com%2Fimage6_7fac55e8ae.png&w=640&q=75"> </a> </p>
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://trustwallet.com/_next/image?url=https%3A%2F%2Fstrapi-cdn.trustwallet.com%2Fimage6_7fac55e8ae.png&w=640&q=75"> </a> </p>
+<p align="left"> <a href="https://github.com/hiwaamirii/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
