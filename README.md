@@ -4,11 +4,8 @@
 A simple and practical trustwallet ui with a beautiful design,
 Please give this project a star, I appreciate it. The project will evolve over time.
 
-## Used By
-
-This project is used by :
-
-- Flutter
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a>  </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
