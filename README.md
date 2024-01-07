@@ -1,7 +1,7 @@
 
 # Trustwallet UI
 
-A simple and practical calculator with a beautiful design and the ability to view history
+A simple and practical trustwallet ui with a beautiful design,
 Please give this project a star, I appreciate it. The project will evolve over time.
 
 ## Used By
