@@ -15,7 +15,8 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0,
-        title: const Text('Home',
+        title: const Text(
+          'Home',
           style: TextStyle(
             fontSize: 18,
             color: Colors.black,
@@ -28,13 +29,38 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         actions: <Widget>[
           IconButton(
-            icon: const Icon(Icons.circle_notifications_sharp, color: Colors.black45),
+            icon: const Icon(Icons.circle_notifications_sharp,
+                color: Colors.black45),
             onPressed: () {},
           ),
         ],
       ),
       body: const Column(
-        children: [],
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              SizedBox(
+                width: 370,
+                child: TextField(
+                  decoration: InputDecoration(
+                    labelText: 'Search',
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(30)),
+                      borderSide: BorderSide.none,
+                    ),
+                    prefixIcon: Icon(Icons.search),
+                    filled: true,
+                    fillColor: Colors.black12,
+                    labelStyle: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ],
       ),
     );
   }
