@@ -147,72 +147,127 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 20),
           Padding(
             padding: const EdgeInsets.only(right: 12, left: 12),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Container(
-                  width: 70,
-                  height: 70,
-                  decoration: const BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.black12,
-                  ),
-                  child: const Center(
-                    child: Icon(
-                      Icons.arrow_upward,
-                      size: 30,
+                Column(
+                  children: <Widget>[
+                    Container(
+                      width: 70,
+                      height: 70,
+                      decoration: const BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: Colors.black12,
+                      ),
+                      child: const Center(
+                        child: Icon(
+                          Icons.arrow_upward,
+                          size: 30,
+                        ),
+                      ),
                     ),
-                  ),
+                    const SizedBox(height: 10),
+                    const Text(
+                      "Send",
+                      style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        fontSize: 17,
+                      ),
+                    ),
+                  ],
                 ),
                 const SizedBox(width: 10),
-                Container(
-                  width: 70,
-                  height: 70,
-                  decoration: const BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.black12,
-                  ),
-                  child: const Center(
-                    child: Icon(
-                      Icons.arrow_downward,
-                      size: 30,
+                Column(
+                  children: [
+                    Container(
+                      width: 70,
+                      height: 70,
+                      decoration: const BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: Colors.black12,
+                      ),
+                      child: const Center(
+                        child: Icon(
+                          Icons.arrow_downward,
+                          size: 30,
+                        ),
+                      ),
                     ),
-                  ),
+                    const SizedBox(height: 10),
+                    const Text(
+                      "Receive",
+                      style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        fontSize: 17,
+                      ),
+                    ),
+                  ],
                 ),
                 const SizedBox(width: 10),
-                Container(
-                  width: 70,
-                  height: 70,
-                  decoration: const BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.black12,
-                  ),
-                  child: const Center(
-                    child: Icon(
-                      Icons.credit_card_sharp,
-                      size: 30,
+                Column(
+                  children: [
+                    Container(
+                      width: 70,
+                      height: 70,
+                      decoration: const BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: Colors.black12,
+                      ),
+                      child: const Center(
+                        child: Icon(
+                          Icons.credit_card_sharp,
+                          size: 30,
+                        ),
+                      ),
                     ),
-                  ),
+                    const SizedBox(height: 10),
+                    const Text(
+                      "Buy",
+                      style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        fontSize: 17,
+                      ),
+                    ),
+                  ],
                 ),
                 const SizedBox(width: 10),
-                Container(
-                  width: 70,
-                  height: 70,
-                  decoration: const BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.black12,
-                  ),
-                  child: const Center(
-                    child: Icon(
-                      Icons.timelapse_rounded,
-                      size: 30,
+                Column(
+                  children: [
+                    Container(
+                      width: 70,
+                      height: 70,
+                      decoration: const BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: Colors.black12,
+                      ),
+                      child: const Center(
+                        child: Icon(
+                          Icons.timelapse_rounded,
+                          size: 30,
+                        ),
+                      ),
                     ),
-                  ),
+                    const SizedBox(height: 10),
+                    const Text(
+                      "Earn",
+                      style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        fontSize: 17,
+                      ),
+                    ),
+                  ],
                 ),
               ],
+            ),
+          ),
+          const Padding(
+            padding: EdgeInsets.only(right: 25, left: 25),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [],
             ),
           ),
         ],
