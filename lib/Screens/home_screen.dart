@@ -263,11 +263,53 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
           ),
-          const Padding(
-            padding: EdgeInsets.only(right: 25, left: 25),
+          const SizedBox(height: 30),
+          Padding(
+            padding: const EdgeInsets.only(right: 25, left: 25),
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [],
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Column(
+                  children: [
+                    const Text("Crypto",
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                        )),
+                    const SizedBox(height: 10),
+                    Container(
+                      decoration: const BoxDecoration(
+                        color: Colors.blueAccent,
+                        borderRadius: BorderRadius.only(
+                            topLeft: Radius.circular(20),
+                            topRight: Radius.circular(20)),
+                      ),
+                      width: 80,
+                      height: 4,
+                    ),
+                  ],
+                ),
+                Column(
+                  children: [
+                    const Text("NFTs",
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black45,
+                        )),
+                    const SizedBox(height: 10),
+                    Container(
+                      decoration: const BoxDecoration(
+                        borderRadius: BorderRadius.only(
+                            topLeft: Radius.circular(20),
+                            topRight: Radius.circular(20)),
+                      ),
+                      width: 80,
+                      height: 4,
+                    ),
+                  ],
+                ),
+              ],
             ),
           ),
         ],
