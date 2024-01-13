@@ -312,6 +312,381 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
           ),
+          const SizedBox(height: 20),
+          Padding(
+            padding: const EdgeInsets.only(right: 25, left: 25),
+            child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Row(
+                    children: [
+                      Image.network(
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png",
+                        width: 50,
+                        height: 50,
+                      ),
+                      const SizedBox(width: 15),
+                      const Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "BTC",
+                            textAlign: TextAlign.start,
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18,
+                            ),
+                          ),
+                          SizedBox(height: 5),
+                          Row(
+                            children: [
+                              Text(
+                                "\$44,224.24",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black45,
+                                  fontSize: 13,
+                                ),
+                              ),
+                              SizedBox(width: 5),
+                              Text(
+                                "+0.67%",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.blueAccent,
+                                  fontSize: 13,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Text(
+                        "0.000444",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                        ),
+                      ),
+                      SizedBox(height: 5),
+                      Text(
+                        "\$19.01",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black45,
+                          fontSize: 13,
+                        ),
+                      ),
+                    ],
+                  ),
+                ]),
+          ),
+          const SizedBox(height: 20),
+          Padding(
+            padding: const EdgeInsets.only(right: 25, left: 25),
+            child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Row(
+                    children: [
+                      Image.network(
+                        "https://cryptologos.cc/logos/ethereum-eth-logo.png",
+                        width: 50,
+                        height: 50,
+                      ),
+                      const SizedBox(width: 15),
+                      const Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "ETH",
+                            textAlign: TextAlign.start,
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18,
+                            ),
+                          ),
+                          SizedBox(height: 5),
+                          Row(
+                            children: [
+                              Text(
+                                "\$2,249.53",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black45,
+                                  fontSize: 13,
+                                ),
+                              ),
+                              SizedBox(width: 5),
+                              Text(
+                                "+0.16%",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.blueAccent,
+                                  fontSize: 13,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Text(
+                        "0.0055",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                        ),
+                      ),
+                      SizedBox(height: 5),
+                      Text(
+                        "\$14.13",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black45,
+                          fontSize: 13,
+                        ),
+                      ),
+                    ],
+                  ),
+                ]),
+          ),
+          const SizedBox(height: 20),
+          Padding(
+            padding: const EdgeInsets.only(right: 25, left: 25),
+            child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Row(
+                    children: [
+                      Image.network(
+                        "https://cryptologos.cc/logos/litecoin-ltc-logo.png",
+                        width: 50,
+                        height: 50,
+                      ),
+                      const SizedBox(width: 15),
+                      const Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "LTC",
+                            textAlign: TextAlign.start,
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18,
+                            ),
+                          ),
+                          SizedBox(height: 5),
+                          Row(
+                            children: [
+                              Text(
+                                "\$65.35",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black45,
+                                  fontSize: 13,
+                                ),
+                              ),
+                              SizedBox(width: 5),
+                              Text(
+                                "-0.41%",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.redAccent,
+                                  fontSize: 13,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Text(
+                        "0.50",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                        ),
+                      ),
+                      SizedBox(height: 5),
+                      Text(
+                        "\$36.04",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black45,
+                          fontSize: 13,
+                        ),
+                      ),
+                    ],
+                  ),
+                ]),
+          ),
+          const SizedBox(height: 20),
+          Padding(
+            padding: const EdgeInsets.only(right: 25, left: 25),
+            child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Row(
+                    children: [
+                      Image.network(
+                        "https://cryptologos.cc/logos/bnb-bnb-logo.png",
+                        width: 50,
+                        height: 50,
+                      ),
+                      const SizedBox(width: 15),
+                      const Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "BNB",
+                            textAlign: TextAlign.start,
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18,
+                            ),
+                          ),
+                          SizedBox(height: 5),
+                          Row(
+                            children: [
+                              Text(
+                                "\$305.61",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black45,
+                                  fontSize: 13,
+                                ),
+                              ),
+                              SizedBox(width: 5),
+                              Text(
+                                "+0.2%",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.blue,
+                                  fontSize: 13,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Text(
+                        "0.520",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                        ),
+                      ),
+                      SizedBox(height: 5),
+                      Text(
+                        "\$157.12",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black45,
+                          fontSize: 13,
+                        ),
+                      ),
+                    ],
+                  ),
+                ]),
+          ),
+          const SizedBox(height: 20),
+          Padding(
+            padding: const EdgeInsets.only(right: 25, left: 25),
+            child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Row(
+                    children: [
+                      Image.network(
+                        "https://cryptologos.cc/logos/tether-usdt-logo.png",
+                        width: 50,
+                        height: 50,
+                      ),
+                      const SizedBox(width: 15),
+                      const Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "USDT",
+                            textAlign: TextAlign.start,
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18,
+                            ),
+                          ),
+                          SizedBox(height: 5),
+                          Row(
+                            children: [
+                              Text(
+                                "\$0.999954",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black45,
+                                  fontSize: 13,
+                                ),
+                              ),
+                              SizedBox(width: 5),
+                              Text(
+                                "-0.02%%",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.redAccent,
+                                  fontSize: 13,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Text(
+                        "1,000",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                        ),
+                      ),
+                      SizedBox(height: 5),
+                      Text(
+                        "\$999.89",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black45,
+                          fontSize: 13,
+                        ),
+                      ),
+                    ],
+                  ),
+                ]),
+          ),
         ],
       ),
     );
